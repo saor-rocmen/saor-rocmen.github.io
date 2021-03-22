@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/* line 12, G:/уроки верстальщика/UBER/src/sass/style.sass */
+* {
+  font-family: 'Roboto',sans-serif;
+}
+
+/* line 15, G:/уроки верстальщика/UBER/src/sass/style.sass */
+header {
+  position: relative;
+}
+
+/* line 18, G:/уроки верстальщика/UBER/src/sass/style.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 5;
+}
+
+/* line 25, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 35, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.menu_link {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 44, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 51, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 56, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheadr_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/* line 63, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader_caal {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 70, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 80, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 5px;
+  box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 6, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #36d7b7;
+}
+
+/* line 95, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/bg_header1.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 100, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo_header {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 109, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo_subheader {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 22px;
+}
+
+/* line 119, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo_descr {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* line 127, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo_btn {
+  display: block;
+  margin: 115px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: 3px solid rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 6, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #36d7b7;
+}
+
+/* line 146, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan {
+  padding: 71px 0 65px 0;
+}
+
+/* line 149, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.adv {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+/* line 161, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.adv_1 {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 166, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 32px;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #222222;
+  z-index: 2;
+}
+
+/* line 177, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.title_1 {
+  color: #fff;
+}
+
+/* line 181, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #222222;
+  z-index: 2;
+}
+
+/* line 190, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.subtitle_1 {
+  color: #fff;
+}
+
+/* line 193, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan .advan_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 199, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  margin-right: 26px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 209, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan_descr {
+  width: 343px;
+}
+
+/* line 212, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan_subtitle {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1eacc7;
+}
+
+/* line 218, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.advan_text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #202020;
+}
+
+/* line 224, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg/bg_mobile.png") center center/cover no-repeat;
+}
+
+/* line 228, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile .row {
+  margin-top: 30px;
+}
+
+/* line 230, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 88px;
+}
+
+/* line 237, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_1 {
+  background: url("../img/images/mobile_1.png") center center/cover no-repeat;
+}
+
+/* line 239, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_2 {
+  background: url("../img/images/mobile_2.png") center center/cover no-repeat;
+}
+
+/* line 241, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_3 {
+  background: url("../img/images/mobile_3.png") center center/cover no-repeat;
+}
+
+/* line 243, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_4 {
+  background: url("../img/images/mobile_4.png") center center/cover no-repeat;
+}
+
+/* line 245, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_5 {
+  background: url("../img/images/mobile_5.png") center center/cover no-repeat;
+}
+
+/* line 247, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_6 {
+  background: url("../img/images/mobile_6.png") center center/cover no-repeat;
+}
+
+/* line 249, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item_text {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 256, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 270, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item-icon::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 277, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item-icon::after {
+  content: '';
+  display: block;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 288, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.mobile_item-icon:hover::before, .mobile_item-icon:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 291, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice {
+  position: relative;
+  min-height: 896px;
+  padding-top: 59px;
+}
+
+/* line 295, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice_bg1 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 300, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice_bg2 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* line 307, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice_car {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+
+/* line 313, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice_carday {
+  margin: 0 auto;
+  height: 327px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #222222;
+}
+
+/* line 321, G:/уроки верстальщика/UBER/src/sass/style.sass */
+.choice h4 {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 328, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require {
+  padding: 66px 0 87px 0;
+}
+
+/* line 330, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require_block {
+  margin: 33px 0;
+}
+
+/* line 332, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require_block_nmb {
+  margin-bottom: 0;
+}
+
+/* line 334, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require_title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1ca8c3;
+}
+
+/* line 339, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require_list {
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 300;
+  color: #222222;
+}
+
+/* line 344, G:/уроки верстальщика/UBER/src/sass/style.sass */
+require_descr {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1ca8c3;
+}
+
+/*# sourceMappingURL=style.css.map */
